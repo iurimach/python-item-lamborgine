@@ -1,0 +1,223 @@
+/* Example CSS in style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+
+h1 {
+    margin-left: 40%;
+    color: #007BFF;
+}
+
+
+nav{
+    width: 100%;
+    background-color: #333;
+}
+.custom-heading {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+.card{
+    width: 300px;
+    height: 320px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: rgb(217, 234, 234);
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+.card-img-top:hover{
+    transform: scale(1.3);
+}
+.conteiner{
+    width: 90%;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* aqedan detaluri gverdis stilebia */
+.card-detal{
+    width: 500px;
+    height: 600px;
+    margin:0 auto;
+    margin-top: 20px;
+    background-color: rgb(196, 235, 216);
+    
+}
+.card-img-detal{
+    width: 100%;
+    height: 400px;
+
+}
+.card-body{
+    margin-left: 10px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  li a:hover {
+    background-color: #111;
+  }
+
+  .logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .logo:hover{
+    transform: scale(1.0);
+  }
+
+/* index html style----------------------- */
+
+.index-text1{
+    width: 400px;
+    margin-top: 40px;
+    color: white;
+    -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 15px) 100%, 0% 100%);
+    background-color: #111;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.index-text2{
+    width: 90%;
+   
+}
+.index-conteiner0{
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 50px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.index-img0{
+    max-width:1200px;
+    
+  
+}
+.index-conteiner1{
+    width: 90%;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    margin-top: 40px;
+    background-color: #f5eaea;
+}
+.index-img1{
+    max-width: 550px;
+    height: 600px;
+}
+.index-span1{
+    width: 300px;
+    height: 400px;
+    margin-top: 90px;
+    margin-left: 190px;
+    background-color: rgb(239, 239, 230)303;
+    font-size: 20px;
+}
+
+.index-text2{
+    width: 90%;
+  
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+
+/* footer---------------------------- */
+
+.footer-wrapper{
+    width: 100%;
+    min-height: 140px;
+    background-color: #111;
+    margin-top: 60px;
+  
+}
+.footer-div1-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-div1{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.footer-p1{
+    color: white;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.footer-p1:hover{
+    background-color: rgb(222, 102, 65);
+}
+
+.ficon{
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.ficon a{
+    padding-left: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.ficon>a:hover{
+    background-color: rgb(214, 58, 11);
+}
+/* gilakebi areulad             */
+.button1{
+    width: 100px;
+    height: 40px;
+    background-color: #2b2929;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.button1>a{
+    list-style: none;
+    text-decoration: none;
+}
+.button1:hover{
+    background-color: green;
+}
+
+
+#bye{
+    margin-top: 30px;
+}

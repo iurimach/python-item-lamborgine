@@ -1,0 +1,28 @@
+{% extends"/layout/lay.html" %}
+{% block body %}
+
+<div class="conteiner">
+    
+    <div class="card-detal" >
+        
+        <img class="card-img-detal" src="{{car["src"]}}" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Mode :{{car["name"]}}</h5>
+        <p class="card-text">Price : {{car["price"]}}$</p>
+        <p class="card-text">yar : {{car["date"]}} </p>
+        <p class="card-text">country : {{car["country"]}}</p>
+        <p class="card-text">Engine:{{car["engine"]}}</p>
+        
+        </div>
+       <div id="bye"> <a href="https://www.lamborghini.com/en-en/models/huracan" >byu</a> </div>
+    </div>
+    
+    
+</div>
+
+
+
+
+
+
+{% endblock %}

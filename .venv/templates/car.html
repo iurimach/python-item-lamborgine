@@ -1,0 +1,26 @@
+{% extends"/layout/lay.html" %}
+{% block body %}
+
+
+    <h1> Cars page</h1>
+   
+ 
+    
+    <div class="conteiner">
+        {% for kay,value in car.items() %}
+        <div class="card" style="width: 18rem;">
+            
+            <img class="card-img-top" src={{value["src"]}} alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">{{value["name"]}}</h5>
+            <p class="card-text">price :{{value["price"]}} $</p>
+            <a href="/car/{{kay}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+            
+        </div>
+        {% endfor %} 
+    </div>
+   <button class="button1"> <a href="/ebaut" class="button1"> go ebaut </a></button>
+    
+
+{% endblock %}

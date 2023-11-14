@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://kit.fontawesome.com/1d053174e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-sm bg-light">
+
+        
+        <ul class="navbar-nav">
+          <div><a class="nav-link" href="/"> <img class="logo" src="https://www.lamborghini.com/sites/it-en/files/themes/custom/lambo_facelift_2019/images/logo.png "></a></div>
+          <li class="nav-item">
+            <a class="nav-link" href="/">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/car">Caars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ebaut">ebaut</a>
+          </li>
+          
+        </ul>
+      
+      </nav>
+     
+
+      
+    {% block body %} {% endblock %}
+    <div class="footer-wrapper"> 
+      <div class="footer-div1-wrapper">
+         <div class="footer-div1">
+            <p class="footer-p1">COMPANY </p>
+            <p class="footer-p1">FINANCIALS </p>
+            <p class="footer-p1"> CONTACT US </p>
+            <p class="footer-p1"> SUSTAINABILITY </p>
+            <p class="footer-p1"> MEDIA CENTER </p>
+            
+
+         </div>
+         <div class="ficon">
+            <a href="#"><i class="fa-brands fa-facebook" ></i></a>
+         <a href="#"> <i class="fa-brands fa-twitter" id="icon2"></i></a>
+         <a href="#"> <i class="fa-brands fa-youtube" id="icon2"></i></a>
+         <a href="#"> <i class="fa-brands fa-pinterest-p" id="icon2"></i></a>
+         <a href="#"><i class="fa-brands fa-instagram" id="icon2"></i> </a>
+         </div>
+      </div>
+      <div class="footer-div1">
+         <p class="footer-p1">PRIVACY & LEGAL </p>
+         <p class="footer-p1">COOKIE SETTINGS </p>
+         <p class="footer-p1"> SITEMAP </p>
+         <p class="footer-p1"> NEWSLETTER </p>
+         <p class="footer-p1"> ACCESSIBILITY </p>
+
+      </div>
+     
+   
+   </div>
+</body>
+</html>
